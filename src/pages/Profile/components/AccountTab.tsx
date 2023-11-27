@@ -113,6 +113,18 @@ export const AccountTab = ({ data }: Profile) => {
       <div className="inputs">
         <TextField
           id="outlined-basic"
+          label="Username"
+          variant="outlined"
+          size="small"
+          defaultValue={data.userName}
+          onChange={(e) => {
+            let o = { ...obj };
+            o.userName = e.target.value;
+            setObj(o);
+          }}
+        />
+        <TextField
+          id="outlined-basic"
           label="First Name"
           variant="outlined"
           size="small"
