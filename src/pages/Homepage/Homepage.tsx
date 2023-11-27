@@ -53,7 +53,7 @@ export const Homepage = () => {
         <div className="faqs-wrapper">
           <div className="faqs">
             <div className="question">
-              Bạn có <span> câu hỏi?</span> Super Voucher có{" "}
+              Bạn có <span> câu hỏi?</span> SmartVoucher có{" "}
               <span>câu trả lời </span>
             </div>
             <div className="more">Xem thêm</div>
